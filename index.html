@@ -5,7 +5,6 @@
 <title>Data Science Curriculum Exploration</title>
 </head>
 
-
 <div class="navbar">
 <select name="Localidades">
   <option id="Bosa" value="Bosa">Bosa</option>
@@ -28,8 +27,35 @@
   <option id="Usme" value="Usme">Usme</option>
 </select>
  <button onclick="maneja_datos()" style="width: 150px">Dibujar</button>
-<div class="hint">hint: click a column header to sort on a column</div>
+<div class="hint">Picar sobre el Nombre de la variable por la que se quiera ordenar</div>
 <button onclick="limpiar_dom()" style="width: 150px">Limpiar</button>
+<div>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <td>Cronológico</td>
+      <td>Muertos</td>
+      <td>Heridos</td>
+      <td>Daños</td>
+      <td>automóvil</td>
+      <td>bicicleta</td>
+      <td>bus</td>
+      <td>buseta</td>
+      <td>camión</td>
+      <td>camioneta</td>
+      <td>campero</td>
+      <td>micro</td>
+      <td>microbus</td>
+      <td>minivan</td>
+      <td>motocarro</td>
+      <td>motocicleta</td>
+      <td>sin informacion en carpet</td>
+      <td>traccion animal</td>
+      <td>tractocamión</td>
+      <td>volqueta</td>
+    </tr>
+  </thead>
+</div>
 </div>
 
 
@@ -37,7 +63,7 @@
 
 .navbar {
     overflow: hidden;
-    background-color: #2EFEF7;
+    background-color: #F4FA58;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
